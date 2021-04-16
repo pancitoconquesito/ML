@@ -1,0 +1,122 @@
+:root {
+    --CMarco: #1f354b;
+    --CH3: #9970b4;
+    --CP: #bad0e5;
+    --CA: #eaf1a8;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.ban{
+    background-color: antiquewhite;
+    margin-bottom: 8%;
+}
+#ban_a{
+    width: 80%;
+    position: relative;
+    left:10%;
+}
+#ban_a h1{
+    display: inline;
+    margin-left: 10%;
+}
+
+#ban_a img{
+    width: 30%;  
+}
+
+#all{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#all h2{
+    text-align: center;
+}
+
+
+.marco{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: var(--CMarco);
+    padding: 2.5%;
+    margin-bottom: 5%;
+}
+
+.marco .parteIMG img{
+    width: 80%;
+}
+.marco .parteTexto h3{
+    color: var(--CH3);
+}
+.marco .parteTexto p{
+    color: var(--CP);
+    padding-bottom: 15%;
+}
+.marco .parteTexto a{
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    padding-right: 5%;
+    color: var(--CA);
+}
+
+
+
+
+
+
+/********************  720 X 1024 ****************************/
+@media (min-width: 720px){
+
+}
+/********************  1024 X 1366****************************/
+@media (min-width: 1024px){
+    body{
+        font-size: 18px;
+    }
+    #ban_a img{
+        width: 25%;  
+    }
+}
+
+/********************  1280 X 800***************************/
+@media (min-width: 1280px){
+    body{
+        font-size: 20px;
+    }
+    #ban_a img{
+        width: 20%;  
+    }
+    #all{
+        width: 85%;
+    }
+}
+/********************  1440 X ...***************************/
+@media (min-width: 1440px){
+    body{
+        font-size: 20px;
+    }
+    #ban_a img{
+        width: 25%;  
+    }
+    #all{
+        width: 80%;
+    }
+}
+/********************  1600 X ...***************************/
+@media (min-width: 1600px){
+    body{
+        font-size: 24px;
+    }
+    #all{
+        width: 65%;
+    }
+    #ban_a img{
+        width: 15%;  
+    }
+}
